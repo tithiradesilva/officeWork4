@@ -190,3 +190,41 @@
     margin-right: 10px;
     color: #262626;
 }
+
+/* 12 pro max and 11 pro max */
+@media only screen and (min-width: 391px) and (max-width: 428px) {
+    .search-bar input[type=text] {
+        width: 360px; 
+    }
+
+    .social-icons {
+        padding-left: 182px;
+    } 
+
+    .new-account-section {
+        padding-left: 40px;
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .social-icons {
+        padding-left: 172px;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    .login-container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .contact-us-container{
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: rgb(241, 241, 241);
+    }
+
+    .social-icons {
+        padding-left: 152px;
+    } 
+}
