@@ -1,3 +1,192 @@
 * {
     font-family: "Poppins";
+    margin: 0;
+    padding: 0;
+}
+
+.landing-page{
+    background-color: rgb(241, 241, 241);
+    width: 100%;
+    height: 100%;
+}
+
+.image-logo{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo-img{
+    height: 100px;
+    margin-top: 50px;
+    border-radius: 10px;
+}
+
+.header-text {
+    text-align: center;
+}
+
+.header-text-java{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.sub-text-java{
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(41, 41, 41);
+}
+
+.search-bar {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.search-bar input[type=text] {
+    padding: 13px;
+    width: 322px; 
+    border-radius: 5px;
+    border: none;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(86, 86, 86);
+}
+
+.login-container{
+    padding-left: 35px;
+    padding-right: 35px;
+    margin-top: 10px;
+}
+
+.login-box {
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.login-header-text{
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #323232;
+    text-align: center;
+    font-weight: 550px;
+}
+
+.login-sub-text {
+    font-size: 13px;
+    margin-bottom: 10px;
+    color: #939393;
+    text-align: center;
+    font-weight: 550;
+}
+
+.input-feilds{
+    text-align: center;
+}
+
+.login-box input[type=text],
+.login-box input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 280px;
+    font-size: 13px;
+    font-weight: 550;
+    outline: none; 
+}
+
+.login-button {
+    padding: 7px 20px;
+    background-color: #ff0000;
+    color: #ffffff;
+    border: none;
+    border-radius: 35px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: background-color 0.5s, color 0.5s, transform 0.5s;
+    margin-top: 10px;
+}
+
+.login-button:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.buttons-extra{
+    text-align: center;
+}
+
+.forgot-password {
+    background-color: transparent;
+    color: #717171;
+    border: none;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 7px; 
+    text-decoration: underline;
+}
+
+.forgot-password:hover {
+    text-decoration: underline; /* Add underline effect on hover */
+}
+
+.new-account-section {
+    display: flex;
+    padding-left: 25px;
+}
+
+.no-account-text {
+    font-size: 12px;
+    margin-top: 9px;
+    color: #323232;
+}
+
+.create-account-button {
+    background-color: transparent;
+    color: #ff0000;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 12px;
+    font-weight: 600;
+    margin-top: 7px;
+    text-decoration: underline;
+    margin-left: 8px;
+}
+
+.contact-us-container {
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 5px;
+}
+
+.contact-us {
+    background-color: white;
+    display: flex;
+    padding-left: 20px;
+    border: none;
+    padding-left: 23px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-radius: 5px;
+}
+
+.contact-text {
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.social-icons {
+    display: flex;
+    padding-left: 152px;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    color: #262626;
 }
